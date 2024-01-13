@@ -19,7 +19,7 @@ request.addEventListener('load',()=>{
     <h3 class='text-card-2'>  پایتخت :  ${countriesData.capital}<h3/>
     <h3 class='text-card-2'> قاره  :  ${countriesData.continents}</h3>
     <h3 class='text-card-2'> جمعیت :   ${countriesData.population}</h3>
-   
+   console.log('Aded in github');
     </div>
     `;
     container.insertAdjacentHTML('beforeend',html)
