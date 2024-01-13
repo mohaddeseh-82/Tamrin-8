@@ -4,6 +4,7 @@ const getCountries=(country)=>{
 request.open('GET',`https://restcountries.com/v3.1/name/${country}`)
 
 request.send();
+console.log("My name is mohaddeseh");
 
 request.addEventListener('load',()=>{
     const countriesData = JSON.parse(request.response)[0];
