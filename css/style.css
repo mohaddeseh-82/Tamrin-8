@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     background-color:lightcyan;
-    padding: 20px;
+    padding: 25px;
 
 }
 
@@ -14,8 +14,8 @@
     font-family: 'Vazirmatn', sans-serif;
     background-color:lightblue;
     width: 300px;
-    height: 510px;
-    padding: 10px;
+    height: 500px;
+    padding: 20px;
     margin: 20px;
     margin-top: 100px;
     border-radius: 10px;
